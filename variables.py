@@ -76,10 +76,9 @@ texte = str(nombre)
 print(texte)
 print(type(texte))
 
-my_var = 0
+my_var = 2
 my_var = bool(my_var)
 print(my_var)
-
 
 # foo
 # bar
