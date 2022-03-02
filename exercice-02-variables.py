@@ -49,23 +49,30 @@ print(round(1 / 3, 4))
 
 # réponse 2.2
 
+#rep 1
 nombre2 = 2
 print(nombre2)
-
 nombre2 = float(nombre2)
-print(type(nombre2))
 print(nombre2)
 
-
+#rep 2
 nombre3 = 1.62
+print(nombre3)
 nombre3 = int(nombre3)
-print(type(nombre3))
 print(nombre3)
 
+#rep 3
+nombre4 = 1.62
+nombre4 = round(nombre4, 0)
+print(nombre4)
 
-print(round(nombre3 , 0))
+nombre4 = int(nombre4)
+print(nombre4)
 
-print(round(nombre3 , 1))
+#rep 4
+nombre5 = 1.62
+nombre5 = round(nombre5, 1)
+print(nombre5)
 
 
 
