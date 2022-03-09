@@ -19,9 +19,9 @@ print(number)
 
 # réponse 4.1
 if number == 1:
-    print('la variable contient un 1')
-elif number != 1:
-    print('la variable ne contient pas de 1')
+    print('la variable est égale un 1')
+else:
+    print('la variable est différent de 1')
 
 # code 4.2
 # si 10 est un nombre pair, le modulo de 2 est égal à zéro
@@ -42,7 +42,7 @@ print(number)
 # réponse 4.2
 if (number % 2) == 0:
     print('le nombre est pair')
-elif (number % 2) != 0:
+else:
     print('le nombre est impair')
 
 # exo 4.3
@@ -55,9 +55,9 @@ number = random.randint(0, 9)
 print(number)
 
 # réponse 4.3
-if number == number /3:
+if (number % 3) == 0:
     print('la variable est divisible  par 3')
-elif number != number  /3:
+else:
     print('la variable nest pas divisible par 3')
 
 
@@ -73,7 +73,7 @@ print(number)
 # réponse 4.4
 if number >= 5:
     print('le nombre est supérieur ou égale à 5')
-elif number <=5:
+else:
     print('le nombre est inférieur à 5')
 
 # exo 4.5
@@ -152,9 +152,9 @@ print(mails)
 
 # réponse 4.8
 
-if number == 0:
+if mails == 0:
     print("IL n'y a aucun mail")
-if number == 1:
+if mails == 1:
     print("Il y a un nouveau mail")
 else:
     print(f"Il y a {mails} nouveaux mails")
